@@ -16,25 +16,25 @@ In the dynamic landscape of education, the need for inclusive and equitable acce
 
 ## Features
 
-# 1. Real-Time Speech-to-Sign Translation System: 
+## 1. Real-Time Speech-to-Sign Translation System: 
 Develop a functional system with comprehensive documentation outlining architecture, algorithms, and usage instructions.
 
-# 2. Enhanced Sign Language Recognition Module: 
+## 2. Enhanced Sign Language Recognition Module: 
 Deliver evaluation reports detailing performance metrics and algorithm enhancements.
 
-# 3. Contextually Relevant Captioning Feature: 
+## 3. Contextually Relevant Captioning Feature: 
 Implement captioning features and enhance the user interface for seamless toggling and customization of caption settings.
 
-# 4. User-Friendly Interface Design: 
+## 4. User-Friendly Interface Design: 
 Provide design artifacts including mockups, wireframes, and prototypes.
 
-# 5. Integration with Virtual Meeting Platforms: 
+## 5. Integration with Virtual Meeting Platforms: 
 Offer sign language support demonstrating compatibility and seamless communication with major virtual meeting platforms.
 
-# 6. Scalability and Reliability Enhancement: 
+## 6. Scalability and Reliability Enhancement: 
 Deliver load testing results and optimization strategies for improved performance.
 
-# 7. User Feedback Mechanism: 
+## 7. User Feedback Mechanism: 
 Establish a user feedback mechanism and provide reports summarizing feedback and proposed improvements.
 
 ## Installation
