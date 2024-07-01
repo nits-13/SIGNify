@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/static/css/styles.css" rel="stylesheet" />
+    <title>SIGNify</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url(/static/img/background.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+
+        h3 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        input[type="file"] {
+            display: block;
+            margin-bottom: 20px;
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button[type="submit"] {
+            background-color: #e45116;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: block;
+            margin: 0 auto;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #c14413;
+        }
+    </style>
+</head>
+<body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light fixed-top py-3"
+      id="mainNav"
+    >
+      <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href="#" data-translate="navbarTitle"
+          >SIGNify</a
+        >
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                data-translate="navbarLanguage"
+                >Language</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <button onclick="setLanguageEnglish()" class="dropdown-item">
+                    English
+                  </button>
+                </li>
+                <li>
+                  <button onclick="setLanguageTamil()" class="dropdown-item">
+                    தமிழ்
+                  </button>
+                </li>
+                <li>
+                  <button onclick="setLanguageHindi()" class="dropdown-item">
+                    हिंदी
+                  </button>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <form action="live" method="POST" enctype="multipart/form-data">
+        <h3>Upload video</h3>
+        <input type="file" name="vdoname" accept="video/mp4">
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>
