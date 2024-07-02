@@ -20,7 +20,7 @@ In the dynamic landscape of education, the need for inclusive and equitable acce
 Develop a functional system with comprehensive documentation outlining architecture, algorithms, and usage instructions.
 
 ## 2. Enhanced Sign Language Recognition Module: 
-Deliver evaluation reports detailing performance metrics and algorithm enhancements. Available in my other repository `hand-gesture`, which is not yet combined with signify.
+Deliver evaluation reports detailing performance metrics and algorithm enhancements. Available in my other repository `https://github.com/prithiknataraj/Sign-Recognition.git`, which is not yet combined with signify.
 
 ## 3. Contextually Relevant Captioning Feature: 
 Implement captioning features and enhance the user interface for seamless toggling and customization of caption settings.
